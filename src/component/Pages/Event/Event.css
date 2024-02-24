@@ -1,0 +1,42 @@
+.Event {
+  padding-top: 50px;
+  padding-bottom: 59px;
+  position: relative;
+  /* background-color: #ececec; */
+}
+.Event .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 30px;
+}
+.Event .box {
+  padding: 15px;
+  position: relative;
+  height: 400px;
+  max-height: 100%;
+  background-color: white;
+  border: 1px solid #e9e6e6;
+  border-radius: 10px;
+  box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%),
+    0px 2px 4px 0px rgb(0 0 0 / 12%);
+}
+.box p {
+  height: 150px;
+  width: 450px;
+  max-width: 100%;
+  overflow: hidden;
+  color: #666;
+  text-overflow: ellipsis;
+}
+.event-Details {
+  background-color: #ececec;
+  height: 100vh;
+  width: 100%;
+}
+.event-Details .container{
+  background-color: white;
+  border: 1px solid #e9e6e6;
+  height: 100vh !important;
+  box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%),
+  0px 2px 4px 0px rgb(0 0 0 / 12%);
+}
